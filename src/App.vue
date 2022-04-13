@@ -1,14 +1,20 @@
 <template>
-  <HomeTest msg="Welcome to Your Vue.js App" />
+  <div>
+    <router-link to="/">Home</router-link>
+    <router-link to="/about">About</router-link>
+  </div>
+
+  <!-- Render active components -->
+  <router-view />
 </template>
 
 <script>
-import HomeTest from "./components/HomeTest.vue";
+// import HomeTest from "./components/HomeTest.vue";
 
 export default {
   name: "App",
   components: {
-    HomeTest,
+    // HomeTest,
   },
 };
 </script>

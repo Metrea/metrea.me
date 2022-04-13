@@ -1,16 +1,15 @@
 <template>
   <div class="hello">
-    <h1>{{ msg }}</h1>
+    <h1>About Page</h1>
   </div>
-  <BeakerIcon />
 </template>
 
 <script>
-import { BeakerIcon } from "@heroicons/vue/solid";
+// import { BeakerIcon } from "@heroicons/vue/solid";
 
 export default {
-  components: { BeakerIcon },
-  name: "HomeTest",
+  // components: { BeakerIcon },
+  name: "AboutMe",
   props: {
     msg: String,
   },
