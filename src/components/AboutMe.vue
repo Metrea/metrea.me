@@ -1,6 +1,14 @@
 <template>
   <div class="hello">
-    <h1>About Page</h1>
+    <!-- About profile picture -->
+    <div>
+      <img src="/" alt="" />
+    </div>
+
+    <!-- About details -->
+    <div>
+      <p>this is where data will be loaded to populate the bio section.</p>
+    </div>
   </div>
 </template>
 
